@@ -24,7 +24,7 @@ What are we building?
 
 We will build a REST API that'll serve a front end notebook application. We will build our REST API with end points that correspond to the HTTP methods of GET, POST, PUT/PATCH and DELETE. 
 
-We will do that by extending the basic express HTTP server we made in the [previous example](https://dev.to/danielstai/how-to-set-up-a-basic-http-server-in-node-express-10i).
+We will do that by extending the basic express HTTP server we made in the [previous example](https://stai.hashnode.dev/node-express-basics-part-i-building-a-basic-http-server).
 
 We will then test our API using Postman in Part III.
 
@@ -258,5 +258,5 @@ Once found, that record is filtered out, returning the filtered array without th
 
 ## Conclusion
 
-And with that we have a fully functional RESTful API. How do we know it does what it says it does? In Part III, we will test our API using Postman. You can go ahead and [read the article here](https://dev.to/danielstai/node-express-basics-part-iii-testing-a-restful-api-with-postman-4c2b).
+And with that we have a fully functional RESTful API. How do we know it does what it says it does? In Part III, we will test our API using Postman. You can go ahead and [read the article here](https://stai.hashnode.dev/node-express-basics-part-iii-testing-a-restful-api-with-postman).
 
