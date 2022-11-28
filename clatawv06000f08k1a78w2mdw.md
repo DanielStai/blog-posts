@@ -10,7 +10,9 @@ The front-end app enables one to view blogs, click on a blog to view a single bl
 
 We will use this as the motivation to build and test a fully functional REST API with Express.js to serve this blog app.
 
-The code for this tutorial can be found [here on my GitHub](https://github.com/DanielStai/netninja-react-backend).
+The code for this tutorial can be found on my GitHub
+
+%[https://github.com/DanielStai/netninja-react-backend].
 
 ## Endpoints
 As described above, we are building an express api that will serve data to a simple front end blog app. 
