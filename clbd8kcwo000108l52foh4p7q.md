@@ -46,7 +46,7 @@ Once the organization is created, we need to initialize a new project. Once you 
 
 ![creating new project](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/efoly5po6vey6ppc2yrw.png align="left")
 
-With our project up and running, we now need to create a database. Indeed after confirming project creation, we are now redirected to a "Create database" page. Let's click on "Build Database" and create a database for our project.
+With our project up and running, we now need to create a database. Indeed after confirming project creation, we are now redirected to a "Create a database" page. Let's click on "Build Database" and create a database for our project.
 
 ![create database](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/wvtgazuk6m8mg5mn6lc5.png align="left")
 
@@ -84,7 +84,7 @@ Copy the connection string and save it somewhere as we will need it up next as w
 
 ## Connecting MongoDB to our project
 
-In my [previous tutorial/article](https://dev.to/danielstai/how-to-build-an-express-rest-api-for-a-simple-blog-app-2m6k), we saw how we can set up a REST API for a simple blog app to give it some CRUD functionality without having a functional database.
+In my [previous article](https://stai.hashnode.dev/how-to-build-an-express-rest-api-for-a-simple-blog-app), we saw how to set up a REST API for a simple blog app to give it some CRUD functionality without having a functional database.
 
 We are now implementing the database in this phase of the project.
 
@@ -118,7 +118,7 @@ In `connectDB`, we will use the Mongoose method `mongoose.connect` to connect to
 
 Remember the connection string we copied and stored somewhere safe? We will now create an environment variable `MONGO_URI` and give it the value of the stored string as seen below.
 
-**NB: Remember to replace** `password` with the actual password to the cluster that you created.
+**NB: Remember to replace** `password` **with the actual password to the cluster that you created**.
 
 ![dotenv](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/svpggfl3goeglk83s6ev.png align="left")
 
