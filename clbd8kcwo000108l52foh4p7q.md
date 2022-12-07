@@ -2,9 +2,7 @@
 
 ## Overview
 
-In this tutorial, we will look at how to set up our project from my [previous tutorial](https://stai.hashnode.dev/how-to-build-an-express-rest-api-for-a-simple-blog-app)
-
-to use MongoDB.
+In this tutorial, we will look at how to set up our project from my [previous tutorial](https://stai.hashnode.dev/how-to-build-an-express-rest-api-for-a-simple-blog-app) to use MongoDB.
 
 In the previous article, we built a REST API that served data to our blog application. We build out endpoints to create, read, update and delete data. This data however is stored in an array in our `blogController.js` file.
 
@@ -18,7 +16,7 @@ MongoDB is a NoSQL document database used to build highly available and scalable
 
 Mongoose is an ODM (Object Data Modelling) library used to make it easier to connect to MongoDB by providing functions to manipulate the documents in collections.
 
-%[https://github.com/DanielStai/netninja-react-backend ] 
+%[https://github.com/DanielStai/netninja-react-backend] 
 
 ## Project Structure
 
